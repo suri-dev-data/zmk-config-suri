@@ -64,8 +64,8 @@
 &kp CLCK   &kp GRAVE &kp CARET &kp PLUS   &kp LBRC  &kp RBRC                      &kp PG_UP  &kp HOME  &kp UP    &kp END   &kp INS   &kp F12
 &kp LSHFT  &kp COMMA &kp PLUS  &kp MINUS  &kp LPAR  &kp RPAR                      &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT &kp PSCRN &none
 &trans     &kp BSLH  &kp MINUS &kp UNDER  &kp LBRC  &kp RBRC  &kp C_MUTE  &none   &kp CLCK   &kp LCTRL &kp ESC   &kp RCTRL &kp PAUSE &none
-                        &trans    &trans     &trans    &trans    &trans      &trans  &trans     &trans    &trans    &trans
-            >;
+                     &trans    &trans     &trans    &trans    &trans      &trans  &trans     &trans    &trans    &trans
+        >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
